@@ -54,4 +54,17 @@ export default defineConfig({
     // 启用/禁用 gzip 压缩大小报告
     reportCompressedSize: false,
   },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        modifyVars: {
+          hack: `true; @import (reference) "${resolve(
+            'src/style/variables.scss'
+          )}";`,
+        },
+        math: 'strict',
+        javascriptEnabled: true,
+      },
+    },
+  },
 });
