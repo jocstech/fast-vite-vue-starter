@@ -8,14 +8,14 @@ Vue 3 正式版已经发布有一段时间了，随着 Vite 脚手架注定成�
 
 ## 技术栈
 
-- ⚡️ Vite 3 - 构建工具（就是快！）
-- 🖖 Vue 3 - 渐进式 JavaScript 框架
-- 🚦 Vue Router - 官方路由管理器
-- 📦 Pinia - 值得你喜欢的 Vue Store
-- 💻 TDesign - TDesign 适配桌面端的组件库
-- 🎨 Less - CSS 预处理器
-- 🎨 UnoCSS - 一个极速按需加载的原子化CSS框架 [Github链接](https://github.com/unocss/unocss)
-- 🔗 Axios - 一个基于 promise 的网络请求库，可以用于浏览器和 - node.js
+- ⚡️ [Vite 3](https://github.com/vitejs/vite) - 构建工具（就是快！）
+- 🖖 [Vue 3](https://github.com/vuejs/core) - 渐进式 JavaScript 框架
+- 🚦 [Vue Router](https://github.com/vuejs/vue-router) - Vue官方路由管理器
+- 📦 [Pinia](https://github.com/vuejs/pinia) - 值得你喜欢的 Vue Store
+- 💻 [TDesign](https://github.com/Tencent/tdesign-vue) - TDesign 鹅厂的适配桌面端的组件库
+- 🎨 [Less](https://github.com/sass/sass) - CSS 预处理器
+- 🎨 [UnoCSS](https://github.com/unocss/unocss) - 一个极速按需加载的原子化CSS框架
+- 🔗 [Axios](https://github.com/axios/axios) - 一个基于 promise 的网络请求库，可以用于浏览器和 - node.js
 - 🧰 Husky + Lint-Staged - Git Hook 工具
 - 🛡️ EditorConfig - 代码规范
 - 🛡️ ESLint - 代码规范
