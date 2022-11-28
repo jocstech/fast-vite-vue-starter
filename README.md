@@ -12,7 +12,7 @@ Vue 3 正式版已经发布有一段时间了，随着 Vite 脚手架注定成�
 - 🖖 [Vue 3](https://github.com/vuejs/core) - 渐进式 JavaScript 框架
 - 🚦 [Vue Router](https://github.com/vuejs/vue-router) - Vue官方路由管理器
 - 📦 [Pinia](https://github.com/vuejs/pinia) - 值得你喜欢的 Vue Store
-- 💻 [TDesign](https://github.com/Tencent/tdesign-vue) - TDesign 鹅厂的适配桌面端的组件库
+- 💻 [TDesign](https://github.com/Tencent/tdesign-vue-next) - TDesign 鹅厂的适配桌面端的组件库
 - 🎨 [Less](https://github.com/sass/sass) - CSS 预处理器
 - 🎨 [UnoCSS](https://github.com/unocss/unocss) - 一个极速按需加载的原子化CSS框架
 - 🔗 [Axios](https://github.com/axios/axios) - 一个基于 promise 的网络请求库，可以用于浏览器和 - node.js

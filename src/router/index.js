@@ -1,3 +1,4 @@
+// 建议根据功能的不同来拆分到 modules 文件夹中，好处是方便后期维护
 import { createRouter, createWebHistory } from 'vue-router';
 
 import baseRouters from './modules/base';
