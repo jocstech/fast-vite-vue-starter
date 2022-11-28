@@ -1,0 +1,1 @@
+import{_ as e}from"./_plugin-vue_export-helper.cdc0426e.js";import{o,c as t,a as c}from"./index.f1232228.js";const n={},s=c("h1",null,"Login Page View",-1),r=[s];function a(_,i){return o(),t("div",null,r)}const f=e(n,[["render",a]]);export{f as default};
