@@ -2,26 +2,27 @@
 
 ## 前言
 
-Vue 3 正式版已经发布有一段时间了，随着 Vite 脚手架注定成为下一代前端工具链，许多用户都想基于 Vite 来构建 Vue 项目，如果想基于 Vite 构建 Vue 3 项目，社区模板完全满足您的需求，如果想构建 Vite 3 + Vue 3 + JavaScript 项目，那社区模板不太能满足您的需求，因为社区模板提供 Vue 3 项目几乎是基于 Vite 2 + TypeScript 构建，对于不熟悉 TypeScript 语言的用户不是很友好，这里直接给大家提供一套规范的 JavaScript + Vite 3 + Vue 3 + Vue Router + Pinia + TDesign + Less + Axios + Husky + Lint-Staged + EditorConfig + ESLint + Prettier + StyleLint + Commitizen + CommitLint + GitHub Actions的前端工程化项目环境，开箱即用，方便你们的项目启动。
+Vue 3 正式版已经发布有一段时间了，随着 Vite 脚手架注定成为下一代前端工具链，许多用户都想基于 Vite 来构建 Vue 项目，如果想基于 Vite 构建 Vue 3 项目，社区模板完全满足您的需求，如果想构建 Vite 3 + Vue 3 + JavaScript 项目，那社区模板不太能满足您的需求，因为社区模板提供 Vue 3 项目几乎是基于 Vite 2 + TypeScript 构建，对于不熟悉 TypeScript 语言的用户不是很友好，这里直接给大家提供一套规范的 JavaScript + Vite 3 + Vue 3 + Vue Router + Pinia + TDesign + Less + UnoCSS + Axios + Husky + Lint-Staged + EditorConfig + ESLint + Prettier + StyleLint + Commitizen + CommitLint + GitHub Actions的前端工程化项目环境，开箱即用，方便你们的项目启动。
 
 ---
 
 ## 技术栈
 
-- ⚡️ Vite 3[2] - 构建工具（就是快！）
-- 🖖 Vue 3[3] - 渐进式 JavaScript 框架
-- 🚦 Vue Router[4] - 官方路由管理器
-- 📦 Pinia[5] - 值得你喜欢的 Vue Store
-- 💻 TDesign[6] - TDesign 适配桌面端的组件库
-- 🎨 Less[7] - CSS 预处理器
-- 🔗 Axios[8] - 一个基于 promise 的网络请求库，可以用于浏览器和 - node.js
-- 🧰 Husky[9] + Lint-Staged[10] - Git Hook 工具
-- 🛡️ EditorConfig[11] - 代码规范
-- 🛡️ ESLint[12] - 代码规范
-- 🛡️ Prettier[13] - 代码规范
-- 🛡️ StyleLint[14] - 代码规范
-- 🔨 Commitizen[15] + CommitLint[16] - 提交规范
-- 💡 GitHub Actions[17] - 自动部署
+- ⚡️ Vite 3 - 构建工具（就是快！）
+- 🖖 Vue 3 - 渐进式 JavaScript 框架
+- 🚦 Vue Router - 官方路由管理器
+- 📦 Pinia - 值得你喜欢的 Vue Store
+- 💻 TDesign - TDesign 适配桌面端的组件库
+- 🎨 Less - CSS 预处理器
+- 🎨 UnoCSS - 一个极速按需加载的原子化CSS框架 [Github链接](https://github.com/unocss/unocss)
+- 🔗 Axios - 一个基于 promise 的网络请求库，可以用于浏览器和 - node.js
+- 🧰 Husky + Lint-Staged - Git Hook 工具
+- 🛡️ EditorConfig - 代码规范
+- 🛡️ ESLint - 代码规范
+- 🛡️ Prettier - 代码规范
+- 🛡️ StyleLint - 代码规范
+- 🔨 Commitizen + CommitLint - 提交规范
+- 💡 GitHub Actions - 自动部署
 
 ## 安装使用方法
 
