@@ -72,6 +72,29 @@ yarn dev
 npm run dev
 ```
 
+## 规范目录结构
+
+```ts
+├── dist/
+└── src/
+    ├── api/                       // 接口请求目录
+    ├── assets/                    // 静态资源目录
+    ├── common/                    // 通用类库目录
+    ├── components/                // 公共组件目录
+    ├── router/                    // 路由配置目录
+    ├── store/                     // 状态管理目录
+    ├── style/                     // 通用样式目录
+    ├── utils/                     // 工具函数目录
+    ├── views/                     // 页面组件目录
+    ├── App.vue
+    ├── main.js
+├── tests/                         // 单元测试目录
+├── index.html
+├── jsconfig.json                  // JavaScript 配置文件
+├── vite.config.js                 // Vite 配置文件
+└── package.json
+```
+
 ## 本项目使用注意点
 
 这个模板可以帮助您快速使用Vue3 + Vite启动开发工作，本项目使用Vue 3的 `<script setup>` SFCs，请阅读[脚本安装文本](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup)学习更多细节。
