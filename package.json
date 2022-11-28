@@ -1,5 +1,6 @@
 {
   "name": "fast-vite-vue-starter",
+  "description": "Super FAST, super NEW (Vite)Vue 3 starter template for every beloved developer.",
   "author": {
     "name": "Yulong Fang",
     "email": "aionv@qq.com",
@@ -7,11 +8,25 @@
   },
   "private": false,
   "version": "1.0.0",
-  "type": "module",
+  "homepage": "https://jocstech.github.io/fast-vite-vue-starter",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jocstech/fast-vite-vue-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jocstech/fast-vite-vue-starter/issues"
+  },
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint --ext .vue,.js,.jsx,.ts,.tsx ./ --max-warnings 0 --cache --cache-location node_modules/.cache/eslint/",
+    "lint:fix": "eslint --ext .vue,.js,jsx,.ts,.tsx ./ --max-warnings 0 --cache --cache-location node_modules/.cache/eslint/ --fix",
+    "stylelint": "stylelint src/**/*.{html,vue,sass,scss,less} --cache --cache-location node_modules/.cache/stylelint/",
+    "stylelint:fix": "stylelint src/**/*.{html,vue,sass,scss,less} --cache --cache-location node_modules/.cache/stylelint/ --fix",
+    "prepare": "husky install",
+    "cleanup": "rm -rf pnpm-lock.yaml node_modules"
   },
   "dependencies": {
     "axios": "^1.2.0",
@@ -22,9 +37,66 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.2.0",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.28.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-define-config": "^1.12.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.8.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.0.4",
+    "postcss": "^8.4.19",
+    "postcss-html": "^1.5.0",
+    "postcss-less": "^6.0.0",
+    "postcss-scss": "^4.0.6",
+    "prettier": "^2.8.0",
+    "sass": "^1.56.1",
     "scss": "^0.2.4",
+    "stylelint": "^14.15.0",
+    "stylelint-config-html": "^1.1.0",
+    "stylelint-config-prettier": "^9.0.4",
+    "stylelint-config-recommended-vue": "^1.4.0",
+    "stylelint-config-standard": "^29.0.0",
+    "stylelint-order": "^5.0.0",
     "unplugin-auto-import": "^0.12.0",
     "unplugin-vue-components": "^0.22.11",
-    "vite": "^3.2.4"
-  }
+    "vite": "^3.2.4",
+    "vue-eslint-parser": "^9.1.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "prettier --write",
+      "eslint --fix"
+    ],
+    "*.vue": [
+      "prettier --write",
+      "eslint --fix",
+      "stylelint --fix"
+    ],
+    "*.{html,sass,scss,less}": [
+      "prettier --write",
+      "stylelint --fix"
+    ],
+    "package.json": [
+      "prettier --write"
+    ],
+    "*.md": [
+      "prettier --write"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
+  },
+  "browserslist": [
+    "defaults"
+  ]
 }

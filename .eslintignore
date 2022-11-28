@@ -1,0 +1,6 @@
+# 创建 ESLint 过滤规则
+dist
+node_modules
+!.prettierrc.js
+components.d.ts
+auto-imports.d.ts
