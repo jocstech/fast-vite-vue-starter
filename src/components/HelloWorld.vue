@@ -12,7 +12,7 @@ const counterStore = useCounterStore();
   <h1>{{ msg }}</h1>
 
   <div class="card">
-    <button type="button" @click="counterStore.accumulate">Count is {{ counterStore.count }}</button>
+    <button type="button" @click="counterStore.accumulate">Count is {{ counterStore.count }}.</button>
   </div>
 
   <p>
